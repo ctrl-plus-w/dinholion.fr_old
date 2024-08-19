@@ -106,8 +106,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     >
       <Container>
         <SectionTitle
-          title="They love our service"
-          subtitle="Show us some love"
+          title="Ce que disent nos clients..."
         />
 
         <TestimonialCards :items="vehicleTestimonials" />
@@ -122,24 +121,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <Section>
-      <Container>
-        <SectionTitle
-          title="Where are you going?"
-          subtitle="Search a ride"
-        />
 
-        <MapCta
-          title="Where are you going?"
-          subtitle="Start searching for your destination below"
-          :lng="12.550343"
-          :lat="55.665957"
-          :zoom="16"
-          pulled
-          narrow
-        />
-      </Container>
-    </Section>
 
 <!--    <FooterD-->
 <!--      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare-->
