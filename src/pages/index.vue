@@ -66,36 +66,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <Section>
-      <Container>
-        <SideSection
-          subtitle="Performance"
-          title="AI Powered Geolocalisation"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ista vestra: Si gravis, brevis; Nos cum te, M. Iam id ipsum absurdum, maximum malum neglegi."
-          cta="Learn more"
-          to="/"
-          image="data:image/gif;base64,replace_with_your_image"
-          image-width="800"
-          image-height="600"
-        />
-      </Container>
-    </Section>
-
-    <Section>
-      <Container>
-        <SideSection
-          subtitle="Corporate"
-          title="A third-party corporate fleet"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ista vestra: Si gravis, brevis; Nos cum te, M. Iam id ipsum absurdum, maximum malum neglegi."
-          cta="Learn more"
-          to="/"
-          image="data:image/gif;base64,replace_with_your_image"
-          image-width="744"
-          image-height="558"
-          reverse
-        />
-      </Container>
-    </Section>
+  
 
 
 
