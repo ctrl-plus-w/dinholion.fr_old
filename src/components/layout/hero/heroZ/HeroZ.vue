@@ -160,7 +160,7 @@ export default {
                 :size="4"
                 weight="semi"
               >
-                Need a Ride?
+      
               </Title>
               <div id="pjWrapperTaxiBooking_theme6">
                 <div id="pjTbsContainer_3301" class="container-fluid"></div>
