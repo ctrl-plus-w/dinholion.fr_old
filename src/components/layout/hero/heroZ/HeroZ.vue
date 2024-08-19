@@ -152,9 +152,9 @@ export default {
   >
     <template #body>
       <div class="columns is-vcentered">
-        <div class="column is-5">
+        <div class="column is-7">
           <div class="hero-form-container">
-            <div class="hero-form">
+            <div class="car-container-inner is-active">
               <Title
                 tag="h2"
                 :size="4"
