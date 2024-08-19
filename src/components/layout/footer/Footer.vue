@@ -76,91 +76,91 @@ const footerClasses = computed(() => [
         "
         class="columns footer-columns is-bordered pt-4 pb-6"
       >
-        <div
-          v-for="(column, index) in props.content.columns"
-          :key="index"
-          class="column is-one-fifth"
-        >
-          <div class="footer-column">
-            <Subtitle
-              :size="6"
-              weight="thin"
-              tag="h4"
-              leading
-              inverted
-              uppercase
-            >
-              <span>{{ column.title }}</span>
-            </Subtitle>
-            <ul class="footer-column-list">
-              <li
-                v-for="(link, l) in column.links"
-                :key="l"
-              >
-                <RouterLink
-                  :to="link.to"
-                  class="footer-link"
-                >
-                  {{ link.label }}
-                </RouterLink>
-              </li>
-            </ul>
-          </div>
-        </div>
+<!--        <div-->
+<!--          v-for="(column, index) in props.content.columns"-->
+<!--          :key="index"-->
+<!--          class="column is-one-fifth"-->
+<!--        >-->
+<!--          <div class="footer-column">-->
+<!--            <Subtitle-->
+<!--              :size="6"-->
+<!--              weight="thin"-->
+<!--              tag="h4"-->
+<!--              leading-->
+<!--              inverted-->
+<!--              uppercase-->
+<!--            >-->
+<!--              <span>{{ column.title }}</span>-->
+<!--            </Subtitle>-->
+<!--            <ul class="footer-column-list">-->
+<!--              <li-->
+<!--                v-for="(link, l) in column.links"-->
+<!--                :key="l"-->
+<!--              >-->
+<!--                <RouterLink-->
+<!--                  :to="link.to"-->
+<!--                  class="footer-link"-->
+<!--                >-->
+<!--                  {{ link.label }}-->
+<!--                </RouterLink>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
 
-        <div
-          v-if="
-            props.content.newsletter?.action || props.content.socials?.length
-          "
-          class="column is-one-fifth has-text-centered"
-        >
-          <div class="social-block">
-            <form
-              v-if="props.content.newsletter?.action"
-              :action="props.content.newsletter.action"
-              :method="props.content.newsletter.method"
-            >
-              <Field>
-                <Control icon="feather:mail">
-                  <VInput
-                    name="email"
-                    placeholder="Subscribe"
-                    inverted
-                  />
-                </Control>
-              </Field>
-              <Field>
-                <Control>
-                  <Button
-                    type="submit"
-                    color="primary"
-                    fullwidth
-                  >
-                    Subscribe
-                  </Button>
-                </Control>
-              </Field>
-            </form>
-            <div
-              v-if="props.content.socials?.length"
-              class="socials"
-            >
-              <RouterLink
-                v-for="(social, s) in props.content.socials"
-                :key="s"
-                class="footer-link"
-                :to="social.link"
-              >
-                <i
-                  class="iconify"
-                  :data-icon="social.icon"
-                  data-inline="false"
-                />
-                <span class="is-sr-only">{{ social.name }}</span>
-              </RouterLink>
-            </div>
-          </div>
-        </div>
+<!--        <div-->
+<!--          v-if="-->
+<!--            props.content.newsletter?.action || props.content.socials?.length-->
+<!--          "-->
+<!--          class="column is-one-fifth has-text-centered"-->
+<!--        >-->
+<!--          <div class="social-block">-->
+<!--            <form-->
+<!--              v-if="props.content.newsletter?.action"-->
+<!--              :action="props.content.newsletter.action"-->
+<!--              :method="props.content.newsletter.method"-->
+<!--            >-->
+<!--              <Field>-->
+<!--                <Control icon="feather:mail">-->
+<!--                  <VInput-->
+<!--                    name="email"-->
+<!--                    placeholder="Subscribe"-->
+<!--                    inverted-->
+<!--                  />-->
+<!--                </Control>-->
+<!--              </Field>-->
+<!--              <Field>-->
+<!--                <Control>-->
+<!--                  <Button-->
+<!--                    type="submit"-->
+<!--                    color="primary"-->
+<!--                    fullwidth-->
+<!--                  >-->
+<!--                    Subscribe-->
+<!--                  </Button>-->
+<!--                </Control>-->
+<!--              </Field>-->
+<!--            </form>-->
+<!--            <div-->
+<!--              v-if="props.content.socials?.length"-->
+<!--              class="socials"-->
+<!--            >-->
+<!--              <RouterLink-->
+<!--                v-for="(social, s) in props.content.socials"-->
+<!--                :key="s"-->
+<!--                class="footer-link"-->
+<!--                :to="social.link"-->
+<!--              >-->
+<!--                <i-->
+<!--                  class="iconify"-->
+<!--                  :data-icon="social.icon"-->
+<!--                  data-inline="false"-->
+<!--                />-->
+<!--                <span class="is-sr-only">{{ social.name }}</span>-->
+<!--              </RouterLink>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
       <div class="columns is-vcentered pt-6 pb-6">
         <div class="column is-8">

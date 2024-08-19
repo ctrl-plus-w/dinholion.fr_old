@@ -104,12 +104,12 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
           </template>
         </JumboBlock>
 
-        <ContentBlockA
-          :title="carBrands.title"
-          :text="carBrands.text"
-          link="/"
-          :images="carBrands.images"
-        />
+<!--        <ContentBlockA-->
+<!--          :title="carBrands.title"-->
+<!--          :text="carBrands.text"-->
+<!--          link="/"-->
+<!--          :images="carBrands.images"-->
+<!--        />-->
       </Container>
     </Section>
 
@@ -124,24 +124,24 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <Section
-      wave="wave-1"
-      shape-color="grey"
-    >
-      <Container>
-        <SectionTitle
-          title="Start a road trip"
-          subtitle="Go Wild"
-        />
+<!--    <Section-->
+<!--      wave="wave-1"-->
+<!--      shape-color="grey"-->
+<!--    >-->
+<!--      <Container>-->
+<!--        <SectionTitle-->
+<!--          title="Start a road trip"-->
+<!--          subtitle="Go Wild"-->
+<!--        />-->
 
-        <VideoBlockB
-          title="Our Product"
-          :features="vehicleVideoFeatures"
-          source="/assets/video/meeting.mp4"
-          poster="data:image/gif;base64,replace_with_your_image"
-        />
-      </Container>
-    </Section>
+<!--        <VideoBlockB-->
+<!--          title="Our Product"-->
+<!--          :features="vehicleVideoFeatures"-->
+<!--          source="/assets/video/meeting.mp4"-->
+<!--          poster="data:image/gif;base64,replace_with_your_image"-->
+<!--        />-->
+<!--      </Container>-->
+<!--    </Section>-->
 
     <Section
       color="grey"
@@ -185,11 +185,11 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
       </Container>
     </Section>
 
-    <FooterD
-      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare
-              non possum. Apparet statim, quae sint officia, quae actiones."
-      color="light"
-      :social-links="socialLinks"
-    />
+<!--    <FooterD-->
+<!--      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare-->
+<!--              non possum. Apparet statim, quae sint officia, quae actiones."-->
+<!--      color="light"-->
+<!--      :social-links="socialLinks"-->
+<!--    />-->
   </div>
 </template>
