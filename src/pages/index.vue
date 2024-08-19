@@ -27,53 +27,6 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
 
     <Section>
       <Container>
-        <SectionTitle
-          title="Click for a ride or to rent a car"
-          subtitle="Premium Service"
-        />
-
-        <FeatureBlockM
-          :features="vehicleFeatures"
-          :columns="3"
-          :limit="8"
-          size="medium"
-        />
-      </Container>
-    </Section>
-
-    <Section>
-      <Container>
-        <SideSection
-          subtitle="Performance"
-          title="AI Powered Geolocalisation"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ista vestra: Si gravis, brevis; Nos cum te, M. Iam id ipsum absurdum, maximum malum neglegi."
-          cta="Learn more"
-          to="/"
-          image="data:image/gif;base64,replace_with_your_image"
-          image-width="800"
-          image-height="600"
-        />
-      </Container>
-    </Section>
-
-    <Section>
-      <Container>
-        <SideSection
-          subtitle="Corporate"
-          title="A third-party corporate fleet"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ista vestra: Si gravis, brevis; Nos cum te, M. Iam id ipsum absurdum, maximum malum neglegi."
-          cta="Learn more"
-          to="/"
-          image="data:image/gif;base64,replace_with_your_image"
-          image-width="744"
-          image-height="558"
-          reverse
-        />
-      </Container>
-    </Section>
-
-    <Section>
-      <Container>
         <JumboBlock
           title="On-Demand Fleet"
           subtitle="Our AI automatically reassigns drivers when needed or when better performance is detected. Close your eyes, we handle everything for you."
@@ -112,6 +65,39 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
 <!--        />-->
       </Container>
     </Section>
+
+    <Section>
+      <Container>
+        <SideSection
+          subtitle="Performance"
+          title="AI Powered Geolocalisation"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ista vestra: Si gravis, brevis; Nos cum te, M. Iam id ipsum absurdum, maximum malum neglegi."
+          cta="Learn more"
+          to="/"
+          image="data:image/gif;base64,replace_with_your_image"
+          image-width="800"
+          image-height="600"
+        />
+      </Container>
+    </Section>
+
+    <Section>
+      <Container>
+        <SideSection
+          subtitle="Corporate"
+          title="A third-party corporate fleet"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ista vestra: Si gravis, brevis; Nos cum te, M. Iam id ipsum absurdum, maximum malum neglegi."
+          cta="Learn more"
+          to="/"
+          image="data:image/gif;base64,replace_with_your_image"
+          image-width="744"
+          image-height="558"
+          reverse
+        />
+      </Container>
+    </Section>
+
+
 
     <Section>
       <Container>
