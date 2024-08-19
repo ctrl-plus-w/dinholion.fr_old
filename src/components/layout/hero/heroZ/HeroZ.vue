@@ -152,7 +152,7 @@ export default {
   >
     <template #body>
       <div class="columns is-vcentered">
-        <div class="column is-7">
+        <div class="column is-5">
           <div class="hero-form-container">
             <div class="car-container-inner is-active">
               <Title
