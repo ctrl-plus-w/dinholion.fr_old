@@ -116,8 +116,7 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
     <Section>
       <Container>
         <SectionTitle
-          title="Our popular cars"
-          subtitle="Premium Vehicles"
+          title="Nos voitures"
         />
 
         <VehicleSlider :slides="popularCars" />
